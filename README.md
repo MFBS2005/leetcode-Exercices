@@ -26,6 +26,15 @@ returning the result as a linked list. I solved it by walking through both lists
 at once, adding digit by digit and carrying over — the same way you add numbers by
 hand. The file includes small helpers to build and print linked lists for testing.
 
+### Three Taps / Buckets Puzzle
+`three_taps_puzzle.py`
+
+Not a LeetCode problem, but a puzzle we were given in high school that I enjoyed
+solving. Three taps each fill a tank in a given time on their own; the goal is to
+find how long it takes when all three run together. I solved it by simulating the
+filling in small time steps until the tank is full, then converting the result into
+minutes and seconds.
+
 ## Technologies
 
 Python 3 (standard library only).
